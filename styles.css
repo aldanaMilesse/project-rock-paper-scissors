@@ -1,0 +1,97 @@
+:root{
+    --firstColor: #120907;
+    --secondColor:#12293e;
+    --thirdColor:#146383;
+    --fourthColor:#c4b18f;
+    --fifthColor: #f5deb3;
+}
+
+body{
+    margin: 0;
+    background-color: var(--secondColor);
+}
+.head {
+    color: var(--fifthColor);
+    background-color: var(--secondColor);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+#player {
+    background-color:var(--fifthColor);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+.contadorComputer{
+    background-color: var(--fifthColor);
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid;
+}
+.contadorComputerP{
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 15px;
+    margin: 20px 150px;
+    border: 3px solid;
+    border-radius: 4px;
+}
+.imagen{
+   margin: 50px 100px 15px 100px;
+}
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fifthColor);
+    height: 50px;
+    width: 300px;
+    border: 3px solid ;
+    border-radius: 5px;
+}
+img{
+    max-height: 300px;
+    max-width: 300px;;
+}
+
+button{
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: var(--firstColor);
+    color: var(--fifthColor);
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.contadorPlayer{
+    border: 3px solid;
+    border-radius: 4px;
+    padding: 7px 50px;
+}

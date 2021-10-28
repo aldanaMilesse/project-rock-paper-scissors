@@ -4,19 +4,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Project Rock Paper Scissors</h1>
+    <div class="head">
+        <h1>Rock Paper Scissors</h1>
+    </div>
     <div id="container">
-        <div>
-            <p>choose between rock, paper or scissors: </p>
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissors">Scissors</button>
-        </div>
+            <div id="player">
+                <h2 class="question">choose between rock, paper or scissors: </h2>
+                <img src="rockpapersciis.png" alt="rock-paper-scissors">
+                <div class="buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+                </div>
+            </div>
+    </div>
+    <div class="resultado">
         <div id="result">
         </div>
     </div>
+    
     <script src="app.js"></script>
 </body>
 </html>
